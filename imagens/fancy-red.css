@@ -1,0 +1,63 @@
+﻿.fancy .ajax__tab_header 
+{
+	font-size:13px;
+	font-weight:bold;
+	color:#000;
+    font-family:sans-serif;
+}
+.fancy .ajax__tab_active .ajax__tab_outer,
+.fancy .ajax__tab_header .ajax__tab_outer,
+.fancy .ajax__tab_hover .ajax__tab_outer
+{
+    height:46px;
+}
+.fancy .ajax__tab_active .ajax__tab_inner,
+.fancy .ajax__tab_header .ajax__tab_inner,
+.fancy .ajax__tab_hover .ajax__tab_inner
+{
+    height:46px;
+    margin-left:16px; /* offset the width of the left image */
+}
+.fancy .ajax__tab_active .ajax__tab_tab,
+.fancy .ajax__tab_hover .ajax__tab_tab,
+.fancy .ajax__tab_header .ajax__tab_tab
+{
+	margin:16px 16px 0px 0px;
+}
+.fancy .ajax__tab_hover .ajax__tab_tab,
+.fancy .ajax__tab_active .ajax__tab_tab 
+{
+	color:#fff;
+}
+.fancy .ajax__tab_body 
+{
+    font-family:verdana;
+    font-size:10px;
+    border:1px solid #999999;
+    border-top:0;
+    padding:8px;
+}
+.fancy-red .ajax__tab_header
+{
+    font-family: verdana;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.fancy-red .ajax__tab_hover .ajax__tab_outer, .fancy-red .ajax__tab_active .ajax__tab_outer
+{
+    border-style: outset;
+    border-width: thin;
+    background-color: #FF8080;
+    font-family: verdana;
+    color: #FF0000;
+    font-size: 12px;
+}
+.fancy-red .ajax__tab_hover .ajax__tab_inner, .fancy-red .ajax__tab_active .ajax__tab_inner
+{
+    border-style: inset;
+    border-width: thin;
+    background-color: #FF0000;
+    font-family: verdana;
+    color: #FFFFFF;
+    font-size: 12px;
+}
